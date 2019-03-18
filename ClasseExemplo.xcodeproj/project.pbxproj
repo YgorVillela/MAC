@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC56ACC2223FB98800828ED0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC56ACC1223FB98800828ED0 /* main.m */; };
+		AC56ACCA223FBA3E00828ED0 /* Atleta.m in Sources */ = {isa = PBXBuildFile; fileRef = AC56ACC9223FBA3E00828ED0 /* Atleta.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		AC56ACBE223FB98800828ED0 /* ClasseExemplo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClasseExemplo; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC56ACC1223FB98800828ED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC56ACC8223FBA3E00828ED0 /* Atleta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Atleta.h; sourceTree = "<group>"; };
+		AC56ACC9223FBA3E00828ED0 /* Atleta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Atleta.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				AC56ACC1223FB98800828ED0 /* main.m */,
+				AC56ACC8223FBA3E00828ED0 /* Atleta.h */,
+				AC56ACC9223FBA3E00828ED0 /* Atleta.m */,
 			);
 			path = ClasseExemplo;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC56ACCA223FBA3E00828ED0 /* Atleta.m in Sources */,
 				AC56ACC2223FB98800828ED0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
